@@ -1,9 +1,10 @@
 # Shaku - Garment Measurement API
 An AI-powered solution that automatically measures garments from images using computer vision and deep learning. Upload your T-shirt images following simple guidelines, and the API accurately calculates key dimensions such as length, chest width, and waist width,  enabling precise digital garment measurement for e-commerce, manufacturing, and virtual fitting applications.
 
+---
 <img width="1181" height="1181" alt="garment_measurement" src="https://github.com/user-attachments/assets/b3e8b083-1bfd-49c2-b452-008c65f9faa6" />
 
----
+
 
 ## Overview
 
