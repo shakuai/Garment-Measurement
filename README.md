@@ -18,7 +18,7 @@ To achieve the most accurate results, make sure to follow these instructions whe
 
   1. Ensure the garment is a T-shirt (other garment types coming soon).
 
-  2. Capture the entire front view of the T-shirt in portrait orientation — avoid tilted or rotated images.
+  2. Capture the entire front view of the T-shirt in portrait orientation, avoid tilted or rotated images.
 
   3. Place a flat A4 sheet next to the T-shirt for scale (do not place it on top), ensuring it has no folds or wrinkles.
 
