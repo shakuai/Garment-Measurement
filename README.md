@@ -389,17 +389,17 @@ Below are example HTTP requests for Python, PHP, and Node.js that can also be ex
     Python Example:
 
     ```python
-      from shakuapi import ShakuClient
-      
-      client = ShakuClient(client_id="YOUR_CLIENT_ID", client_secret="YOUR_CLIENT_SECRET")
-      
-      # login
-      client.login(username="YOUR_USERNAME", password="YOUR_PASSWORD")
-      
-      # get size measurement
-      result = client.garment_measurement("garment_image.jpg")
-      
-      print(result)
+    from shakuapi import ShakuClient
+    
+    client = ShakuClient(client_id="YOUR_CLIENT_ID", client_secret="YOUR_CLIENT_SECRET")
+    
+    # login
+    client.login(username="YOUR_USERNAME", password="YOUR_PASSWORD")
+    
+    # get size measurement
+    result = client.garment_measurement("garment_image.jpg")
+    
+    print(result)
     ```
 
 
