@@ -3,6 +3,8 @@ An AI-powered solution that automatically measures garments from images using co
 
 <img width="1181" height="1181" alt="garment_measurement" src="https://github.com/user-attachments/assets/b3e8b083-1bfd-49c2-b452-008c65f9faa6" />
 
+---
+
 ## Overview
 
 The Garment Measurement API by Shaku provides an intelligent solution for extracting precise measurements from garment images using advanced computer vision and deep learning models. This API is designed for fashion retailers, manufacturers, and e-commerce platforms that need to accurately measure clothing dimensions from flat-lay images, without manual tools or human intervention.
