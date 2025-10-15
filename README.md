@@ -16,21 +16,14 @@ It also validates image quality to ensure compliance with measurement guidelines
 ## Image Capture Guidelines
 To achieve the most accurate results, make sure to follow these instructions when uploading your garment images:
 
-  1. Ensure the garment is a T-shirt (other garment types coming soon).
-
-  2. Capture the entire front view of the T-shirt in portrait orientation, avoid tilted or rotated images.
-
-  3. Place a flat A4 sheet next to the T-shirt for scale (do not place it on top), ensuring it has no folds or wrinkles.
-
-  4. All corners of both the T-shirt and the A4 sheet must be fully visible in the image.
-
-  5. Use a flat surface with a plain, uncluttered background.
-
-  6. Avoid shadows or reflections for accurate measurements.
-
-  7. Keep each image under 3MB.
-
-  8. You can upload up to 50 images in one batch.
+  - Ensure the garment is a T-shirt (other garment types coming soon).
+  - Capture the entire front view of the T-shirt in portrait orientation, avoid tilted or rotated images.
+  - Place a flat A4 sheet next to the T-shirt for scale (do not place it on top), ensuring it has no folds or wrinkles.
+  - All corners of both the T-shirt and the A4 sheet must be fully visible in the image.
+  - Use a flat surface with a plain, uncluttered background.
+  - Avoid shadows or reflections for accurate measurements.
+  - Keep each image under 3MB.
+  - You can upload up to 50 images in one batch.
 
 These conditions allow the AI model to establish an accurate reference scale and calculate real-world dimensions precisely.
 
@@ -39,13 +32,13 @@ These conditions allow the AI model to establish an accurate reference scale and
 The Garment Measurement API uses a hybrid pipeline combining image segmentation, edge detection, and geometric scaling based on the reference A4 sheet.
 The model automatically:
 
-  - Detects garment boundaries.
+  1. Detects garment boundaries.
 
-  - Identifies measurement points.
+  2. Identifies measurement points.
 
-  - Converts pixel distances into centimeters using the A4 sheet as a known dimension.
+  3. Converts pixel distances into centimeters using the A4 sheet as a known dimension.
 
-  - Returns structured data with detailed metrics and positional metadata.
+  4. Returns structured data with detailed metrics and positional metadata.
 
 This automation significantly reduces manual effort in product digitization pipelines, ensuring consistency and precision for online catalogs or virtual fitting applications.
 
